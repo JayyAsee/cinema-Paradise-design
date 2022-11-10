@@ -1,0 +1,111 @@
+body{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-content{
+    width:30%;
+    display:flex;
+    justify-content: space-around;
+
+}
+
+.main-bg {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+img.ice-age-img {
+    width: 100%;
+}
+
+h1 {
+    
+    font-size: 8rem;
+    margin: 0;
+    color: #2E3D3D;
+}
+
+p.main-p {
+    width: 60%;
+}
+
+button.watch-now {
+    padding: 12px;
+    width: 25%;
+    margin: 1% 8%;
+    border-radius: 21px;
+    border: 1px solid #005469;
+}
+
+.main-image {
+    width: 100%;
+}
+
+img.grid-img {
+    width: 100%;
+}
+.inner-grid {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.main-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+button.grid-btn {
+    padding: 5%;
+    width: 60%;
+    border-radius: 36px;
+}
+img.grid-icon {
+    width: 100%;
+}
+.grid-items {
+    margin: 5%;
+}
+
+
+@media screen and (max-width:450px){
+    body{
+        font-size:0.7rem;
+    }
+    .main-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    h1 {
+    
+        font-size: 3rem;
+        margin: 0;
+        color: red;
+    }
+}
+
+@media screen and (max-width:850px) and (min-width:600px){
+
+}
+
+
+
+.heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2vw 0;
+    padding: 0 7vw;
+}
+
+footer {
+    text-align: center;
+}
